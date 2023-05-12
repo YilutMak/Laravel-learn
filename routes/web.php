@@ -48,4 +48,4 @@ Route::get('/usercontroller/path', [
 Route::resource('my','\App\Http\Controllers\MyController');
 
 //implicit Controllers
-Route::controller(‘base URI’,’<class-name-of-the-controller>’);
+//Route::controller(‘base URI’,’<class-name-of-the-controller>’);
